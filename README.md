@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Awesome Books</b></h3>
+  <h3><b>Todo list</b></h3>
   
 </div>
 
@@ -28,7 +28,7 @@
 
 # :book: Awesome Project-Module 2 <a name="about-project"></a>
 
-**Awesome Books** is a simple website that displays a list of books and allows you to add and remove books from that list..
+**Todo List** is simple web app that's for listing your daily tasks to do to make your life easier..
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -75,7 +75,7 @@ In order to run this project you need:
 Clone this repository to your desired folder or download the Zip folder:
 
 ```sh
-    "https://github.com/husush23/Awesome-books-es6.git"
+    "https://github.com/husush23/todo-list.git"
 ```
 
 - Navigate to the location of the folder in your machine:
