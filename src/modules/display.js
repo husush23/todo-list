@@ -138,7 +138,11 @@ export default function display() {
     renderTodo();
   }
 
-  document.querySelector('.clear').addEventListener('click', clearAllCompleted);
+  document.querySelector('.clear').addEventListener('click', (e) => {
+    e.preventDefault();
+    clearAllCompleted();
+    renderTodo();
+  });
 }
 
 // export {todos, display};
