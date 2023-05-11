@@ -75,3 +75,9 @@ center {
 .bi-plus-circle-fill {
   color: green;
 }
+
+li {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
