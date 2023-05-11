@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 500px;
+}
+
+#todos-list {
+  background-color: #fff;
+  padding: 0.5rem;
+  border: 1px solid rgb(219, 219, 219);
+  overflow: scroll;
+  border-radius: 0 0 5px 5px;
+}
+
+#todos-list .todo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 0.75rem 0.5rem;
+  border-radius: 5px;
+}
+
+#todos-list .todo:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#todos-list .todo * {
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+#todos-list .todo i {
+  font-size: 0.9rem;
+}
+
+#todos-list .todo p {
+  flex: 1;
+  word-break: break-all;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: grey;
+}
+
+#todos-list .todo .bi-pencil-square {
+  color: rgb(31, 177, 48);
+}
+
+#todos-list .todo .bi-trash {
+  color: rgb(236, 82, 82);
+  margin: 0;
+}
+
+.bi-circle {
+  color: red;
+}
+
+.bi-check-circle-fill {
+  color: rgb(31, 177, 48);
+}
+
+.line {
+  text-decoration: line-through;
+}
+
+center {
+  margin-top: 10px;
+}
+
+.bi-plus-circle-fill {
+  color: green;
+}
