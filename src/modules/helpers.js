@@ -11,4 +11,3 @@ export default function setIndex() {
 
   localStorage.setItem('todos', JSON.stringify(todos));
 }
-console.log(todos);

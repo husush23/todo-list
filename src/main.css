@@ -6,6 +6,9 @@ body {
 
 .container {
   width: 500px;
+  border: 2px purple solid;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 #todos-list {
